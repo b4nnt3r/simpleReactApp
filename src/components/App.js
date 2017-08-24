@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import logo from '../logo.svg'
-import EarthquakeInfo from '../data/EarthquakeInfo.js';
-import EarthquakeList from '../data/EarthquakesList.js';
+import EarthquakeInfo from './EarthquakeInfo';
+import EarthquakeList from './EarthquakesList';
 
 class App extends Component {
   render() {
